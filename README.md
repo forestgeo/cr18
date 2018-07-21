@@ -1,5 +1,6 @@
 # cr18
-cr18 is for everything related to ForestGEO's workshop in Czech Republic. 2018.
+
+This repository is for everything related to ForestGEO's workshop in Czech Republic, 2018.
 
 ## R tutorials
 
