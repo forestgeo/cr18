@@ -1,6 +1,6 @@
 ---
 title: "r-intro"
-output: ioslides_presentation
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
