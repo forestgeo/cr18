@@ -6,6 +6,7 @@ Shortlink to here: http://bit.ly/cr18-repo
 
 * [Propose an idea for a tutorial](https://github.com/forestgeo/cr18/issues/new).
 * [Vote an existing idea for a tutorial](https://github.com/forestgeo/cr18/issues).
+![](https://i.imgur.com/KA2MMbe.png)
 
 ## Twitter
 
