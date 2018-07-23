@@ -63,7 +63,7 @@ tree[tree$sp == "PREMON" & tree$quadrat == "1017", ]
 arrange(tree, sp, quadrat)
 ```
 
-## Arrange in descending order with `desc()`
+## Arrange in descending order `desc()`
 
 ```{r}
 arrange(tree, desc(sp), quadrat)
