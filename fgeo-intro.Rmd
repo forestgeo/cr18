@@ -1,0 +1,12 @@
+---
+title: "bit.ly/fgeo-package"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# https://bit.ly/fgeo-demo
+
+# https://bit.ly/fgeo-package
