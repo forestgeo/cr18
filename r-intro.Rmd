@@ -1,6 +1,7 @@
 ---
-title: "r-intro"
-output: github_document
+title: "Introduction to R"
+subtitle: "`http://bit.ly/cr18-r-intro`"
+output: ioslides_presentation
 ---
 
 ```{r setup, include=FALSE}
@@ -18,7 +19,7 @@ knitr::opts_chunk$set(
 
 <img src="tidyverse.png" align="right" width = 750 />
 
-# Transform data (~80% of your time)
+# Transform data
 
 ## Tools for data science
 
@@ -37,22 +38,20 @@ dim(luquillo_tree6_random)
 
 ```{r}
 luquillo_tree6_random
-```
 
-## Main verbs
-
-<img src="verbs.png" align="right" width = 750 />
-
-```{r}
 tree <- luquillo_tree6_random
 ```
+
+## dplyr: Main verbs
+
+<img src="verbs.png" align="right" width = 750 />
 
 ## Filter rows with `filter()`
 
 ```{r}
 filter(tree, sp == "PREMON", quadrat == "1017")
 ```
-## Roughtly equivalent
+## Equivalent
 
 ```{r}
 tree[tree$sp == "PREMON" & tree$quadrat == "1017", ]
@@ -71,8 +70,6 @@ arrange(tree, desc(sp), quadrat)
 ```
 
 ## Select columns with `select()`
-
-## Select by column name
 
 ```{r}
 select(tree, sp, quadrat, treeID, status, dbh)
@@ -105,7 +102,7 @@ mutate(tree,
 )
 ```
 
-## Keep the new variables with `transmute()`
+## Only new variables with `transmute()`
 
 ```{r}
 transmute(tree, 
@@ -122,10 +119,14 @@ summarise(tree,
 )
 ```
 
-## Randomly sample rows with `sample_n()`
+## Anything by groups with `group_by()`
 
 ```{r}
-sample_n(tree, 5)
+by_sp <- group_by(tree, quadrat)
+
+summarise(by_sp,
+  mean_dbh = mean(dbh, na.rm = TRUE)
+)
 ```
 
 # Learn more
