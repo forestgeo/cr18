@@ -1,5 +1,4 @@
 ---
-title: "bit.ly/fgeo-package"
 output: ioslides_presentation
 ---
 
@@ -7,6 +6,18 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# https://bit.ly/fgeo-demo
+## Intro to fgeo
 
-# https://bit.ly/fgeo-package
+### https://bit.ly/fgeo-package
+
+Mauro Lepore (ForestGEO R-package developer)
+
+## https://bit.ly/fgeo-demo
+
+## http://bit.ly/cr18-repo
+
+## https://bit.ly/fgeo-package
+
+https://twitter.com/mauro_lepore
+
+[@forestgeo #fgeo](https://twitter.com/search?q=%40forestgeo%20%23cr18&src=typd&lang=en)
