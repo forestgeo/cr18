@@ -16,15 +16,24 @@ knitr::opts_chunk$set(
 
 -- Harold Abelson, Structure and Interpretation of Computer Programs
 
-## Setup
+## Setup: Packages
 
 ```{r}
 # Package
 library(tidyverse)
 library(fgeo.data)
+```
 
-# Data
-tree <- luquillo_tree5_random
+## Setup: Data
+
+```{r}
+tree <- read_csv("data/tree.csv")
+```
+
+## Setup: Data
+
+```{r}
+tree
 ```
 
 ## Piping | What problem it solves?
