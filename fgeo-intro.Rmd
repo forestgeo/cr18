@@ -20,4 +20,4 @@ Mauro Lepore (ForestGEO R-package developer)
 
 https://twitter.com/mauro_lepore
 
-[@forestgeo #fgeo](https://twitter.com/search?q=%40forestgeo%20%23cr18&src=typd&lang=en)
+[\@forestgeo #fgeo](https://twitter.com/search?q=%40forestgeo%20%23cr18&src=typd&lang=en)

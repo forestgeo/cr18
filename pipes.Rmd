@@ -1,0 +1,68 @@
+---
+title: "Data Science Pipelines"
+subtitle: "`http://bit.ly/cr18-pipes`"
+author: \@mauro_lepore
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  collapse = TRUE
+)
+```
+
+## "Programs must be written for people to read, and only incidentally for machines to execute".
+
+-- Harold Abelson, Structure and Interpretation of Computer Programs
+
+## Setup
+
+```{r}
+# Package
+library(tidyverse)
+library(fgeo.data)
+
+# Data
+tree <- luquillo_tree5_random
+```
+
+## Piping | What problem it solves?
+
+```{r}
+a1 <- group_by(tree, sp)
+a2 <- select(a1, sp, quadrat, dbh)
+a3 <- summarise(a2, dbh_mean = mean(dbh, na.rm = TRUE))
+a4 <- filter(a3, dbh_mean > 350)
+a4
+```
+
+## Piping | What problem it solves?
+
+```{r}
+filter(
+  summarise(
+    select(
+      group_by(tree, sp), 
+      sp, quadrat, dbh
+    ), 
+    dbh_mean = mean(dbh, na.rm = TRUE)
+  ), 
+  dbh_mean > 350
+)
+```
+
+## Piping | What problem it solves?
+
+```{r}
+tree %>% 
+  group_by(sp) %>% 
+  select(sp, quadrat, dbh) %>% 
+  summarise(dbh_mean = mean(dbh, na.rm = TRUE)) %>% 
+  filter(dbh_mean > 350)
+```
+
+## Adapted from dplyr | https://dplyr.tidyverse.org/articles/dplyr.html#piping
+
+### Learn more at http://r4ds.had.co.nz/pipes.html
+

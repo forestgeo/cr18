@@ -114,8 +114,11 @@ transmute(tree,
 ## Summarise values with `summarise()`
 
 ```{r}
-summarise(tree,
-  mean_dbh = mean(dbh, na.rm = TRUE)
+by_quad_sp <- group_by(tree, quadrat, sp)
+summarise(by_quad_sp,
+  mean_dbh = mean(dbh, na.rm = TRUE),
+  mean_gx = mean(gx, na.rm = TRUE),
+  mean_gy = mean(gy, na.rm = TRUE)
 )
 ```
 
