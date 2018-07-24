@@ -1,0 +1,72 @@
+---
+title: "Project oriented workflow"
+subtitle: "`http://bit.ly/cr18-projects`"
+author: \@mauro_lepore
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  collapse = TRUE
+)
+```
+
+## R / RStudio setup
+
+<img src="proj-setup.png" align="right" width = 750 />
+
+## Manage working directories
+
+<img src="fire.png" align="right" width = 750 />
+
+# RStudio projects and packages
+
+### Why?
+
+## 1. Work on multiple projects.
+
+<img src="proj-multi.png" align="right" width = 750 />
+
+## Organize projects (example)
+
+<img src="organize.png" align="right" width = 750 />
+
+## http://www.launchy.net/
+
+<img src="launchy.png" align="right" width = 750 />
+
+## 2. Click to open/set working directory
+
+<img src="proj-click.png" align="right" width = 750 />
+
+## 3. Enhanced navigation
+
+<img src="proj-nav.png" align="right" width = 750 />
+
+## 
+
+<img src="proj-pkg.png" align="right" width = 750 />
+
+## Create a project
+
+<img src="proj-new.png" align="right" width = 750 />
+
+## Create a package (option 1)
+
+<img src="proj-new-pkg.png" align="right" width = 750 />
+
+## Create a package (option 2)
+
+```R
+usethis::create_package("abcd")
+```
+
+## Building Tidy Tools
+
+<img src="tidy.png" align="right" width = 750 />
+
+## Building Tidy Tools
+
+<img src="cc.png" align="right" width = 750 />
+
