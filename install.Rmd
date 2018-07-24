@@ -1,0 +1,44 @@
+---
+title: "Installing packages"
+subtitle: "`http://bit.ly/cr18-install`"
+author: \@mauro_lepore
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  collapse = TRUE
+)
+```
+
+## Why update?
+
+<img src="blog.png" align="right" width = 750 />
+
+[Opinion by Jenny Bryan](https://fgeo.netlify.com/2018/03/06/2018-03-06-should-i-update-all-my-r-packages-frequently-yes-no-why/)
+
+## Update R
+
+```R
+install.packages("installr")
+installr::updater()
+```
+
+## Update RStudio
+
+<img src="update-rs.png" align="right" height = 500 />
+
+## Update packages
+
+<img src="update-pkg.png" align="right" height = 500 />
+
+## Installing packages from GitHub
+
+[Blog](https://fgeo.netlify.com/2018/02/05/2018-02-05-installing-packages-from-github/)
+
+```R
+install.packages("devtools")
+devtools::install_github("forestgeo/fgeo")
+```
+
