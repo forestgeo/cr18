@@ -2,6 +2,10 @@ This repository is for everything related to ForestGEO's workshop in Czech Repub
 
 Shortlink to here: http://bit.ly/cr18-repo
 
+## Teaching/learning esources
+
+[Teach/learn R with interactive tutorials and videos](https://github.com/forestgeo/learn/issues/113)
+
 ## R tutorials
 
 * [Propose an idea for a tutorial](https://github.com/forestgeo/cr18/issues/new).
