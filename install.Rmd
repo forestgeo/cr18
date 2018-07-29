@@ -31,7 +31,7 @@ installr::updater()
 
 ## Update packages
 
-<img src="update-pkg.png" align="right" height = 500 />
+<img src="update-pkg.png" align="right" width = 750 />
 
 ## Installing packages from GitHub
 
