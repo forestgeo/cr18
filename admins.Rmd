@@ -1,0 +1,53 @@
+---
+title: "Data/R admins"
+subtitle: "`http://bit.ly/cr18-admins`"
+author: \@mauro_lepore
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  collapse = TRUE
+)
+```
+
+## Goal
+
+Overview a relatively small toolkit for great impact.
+
+* **Markdown_**: Simple syntax to format text, used everywhere.
+* __GitHub__: Most popular tool for collaboration.
+* __rstudio.cloud__: R and RStudio from a web browser.
+* __R-packages__ for managing data.
+* __pkgdown__ websites for sharing metadata.
+
+## Facilitate communication
+
+* Markdown and R markdown. (Help > Markdown Quick Reference)
+* Collaboration with GitHub.
+    * Creating repos.
+    * Opening issues.
+    * Detailing repo's goal in README.md ([e.g.](https://github.com/forestgeo/ghdemo/blob/master/README.md)).
+    * Creating template issues on ISSUE_template.md ([e.g.](https://github.com/forestgeo/ghdemo/blob/master/ISSUE_TEMPLATE.md)).
+
+## Linking project with rstudio.cloud
+
+<img src="https://i.imgur.com/8xYP7he.png" align="right" width = 750 />
+
+## Linking project with RStudio locally
+
+<img src="https://i.imgur.com/WFTZoDu.png" align="right" width = 750 />
+
+## Publishing R products
+
+* [Github documents](https://rmarkdown.rstudio.com/github_document_format.html) for .md content.
+* [GitHub pages](https://forestgeo.github.io/ghdemo/) for .html content.
+* [__reprex__](https://reprex.tidyverse.org/) for reproducible examples.
+* Rstudioconnect for most r products (e.g. this presentation).
+* shinyapps.io for interactive reports ([e.g.](https://fgeocomm.shinyapps.io/basics-vis/)).
+
+## Managing data and metadata with R-packages and websites
+
+* [Creating data-packages](https://youtu.be/Tvq2DiB5gxg) with RStudio and __usethis__.
+* Creating websites with [__pkgdown__](http://pkgdown.r-lib.org/).
