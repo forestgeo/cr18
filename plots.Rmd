@@ -27,19 +27,24 @@ tree %>%
   summarise(n = n_distinct(sp)) %>% 
   arrange(desc(n)) %>% 
   top_n(1)
+```
 
+## Subset data
+
+```{r}
 top <- filter(tree, quadrat == 1516)
 top
 ```
 
-##
+
+## Visualize all species in one panel
 
 ```{r}
 ggplot(data = top, mapping = aes(x = gx, y = gy, colour = sp)) + 
   geom_point()
 ```
 
-##
+## Visualize one species in each panel
 
 ```{r}
 ggplot(top, aes(gx, gy, colour = sp)) + 
