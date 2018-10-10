@@ -6,12 +6,6 @@ Shortlink to here: http://bit.ly/cr18-repo
 
 [Teach/learn R with interactive tutorials and videos](https://github.com/forestgeo/learn/issues/113)
 
-## R tutorials
-
-* [Propose an idea for a tutorial](https://github.com/forestgeo/cr18/issues/new).
-* [Vote an existing idea for a tutorial](https://github.com/forestgeo/cr18/issues).
-![](https://i.imgur.com/KA2MMbe.png)
-
 ###  Slides
 
 * https://bit.ly/fgeo-package
