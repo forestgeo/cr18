@@ -2,7 +2,7 @@ This repository is for everything related to ForestGEO's workshop in Czech Repub
 
 Shortlink to here: http://bit.ly/cr18-repo
 
-### Talks
+### Training
 
 * https://bit.ly/fgeo-package
 * http://bit.ly/cr18-r-intro
